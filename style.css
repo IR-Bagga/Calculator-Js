@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.container{
+    background-image: url('../image/bg2-calculator.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 25%;
+    height: auto;
+    background-image: linear-gradient(to right, rgb(97, 81, 187), rgba(204, 32, 32, 0.873));
+    border-radius: 19px;
+    padding-bottom: 15px;
+}
+h1{
+    width: 82%;
+    height: 54px;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.18);
+    text-align: end;
+    margin: 26px auto;
+    padding-right: 20px;
+    overflow: hidden;
+}
+.btn-part{
+    text-align: center;
+}
+.btn{
+    width: 62px;
+    padding: 8px 10px;
+    border: 1px solid black;
+    border-radius: 9px;
+    margin: 8px 3px;
+    font-size: 21px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.18);
+}
+#btnequal{
+    width: 132px;
+}
+.btn:hover{
+    background-color: rgba(128, 128, 128, 0.453);
+}
+h1:hover{
+    background-color: rgba(128, 128, 128, 0.453);
+}
